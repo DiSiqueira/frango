@@ -1,0 +1,100 @@
+hash: 6a939d50c1ec6ee64832e2e75d81eab9697da397a87e70693591bc0e3c03fbde
+updated: 2017-06-18T01:31:19.817115125+02:00
+imports:
+- name: cloud.google.com/go
+  version: b8b88d2593afebb61b6f616bb3c85f79f28819d2
+  subpackages:
+  - compute/metadata
+  - trace
+- name: github.com/disiqueira/frango
+  version: e40ed045ffc7b47abd254aba7bca839f2b7fcaa8
+  subpackages:
+  - lib
+- name: github.com/golang/protobuf
+  version: e325f446bebc2998605911c0a2650d9920361d4a
+  subpackages:
+  - proto
+  - ptypes/any
+- name: github.com/kelseyhightower/envconfig
+  version: f611eb38b3875cc3bd991ca91c51d06446afa14c
+- name: golang.org/x/net
+  version: 59a0b19b5533c7977ddeb86b017bf507ed407b12
+  subpackages:
+  - context
+  - context/ctxhttp
+  - http2
+  - http2/hpack
+  - idna
+  - internal/timeseries
+  - lex/httplex
+  - trace
+- name: golang.org/x/oauth2
+  version: f047394b6d14284165300fd82dad67edb3a4d7f6
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/sync
+  version: f52d1811a62927559de87708c8913c1650ce4f26
+  subpackages:
+  - semaphore
+- name: golang.org/x/text
+  version: 9e2f80a6ba7ed4ba13e0cd4b1f094bf916875735
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+- name: golang.org/x/time
+  version: 8be79e1e0910c292df4e79c241bb7e8f7e725959
+  subpackages:
+  - rate
+- name: google.golang.org/api
+  version: 324744a33f1f37e63dd1695cfb3ec9a3e4a1cb05
+  subpackages:
+  - cloudtrace/v1
+  - gensupport
+  - googleapi
+  - googleapi/internal/uritemplates
+  - googleapi/transport
+  - internal
+  - option
+  - support/bundler
+  - transport
+- name: google.golang.org/appengine
+  version: a2f4131514e563cedfdb6e7d267df9ad48591e93
+  subpackages:
+  - internal
+  - internal/app_identity
+  - internal/base
+  - internal/datastore
+  - internal/log
+  - internal/modules
+  - internal/remote_api
+  - internal/socket
+  - internal/urlfetch
+  - socket
+  - urlfetch
+- name: google.golang.org/genproto
+  version: aa2eb687b4d3e17154372564ad8d6bf11c3cf21f
+  subpackages:
+  - googleapis/rpc/status
+- name: google.golang.org/grpc
+  version: c5c761dbca07f4d0efafd3f430a40dcdf1c1163f
+  subpackages:
+  - codes
+  - credentials
+  - credentials/oauth
+  - grpclb/grpc_lb_v1
+  - grpclog
+  - internal
+  - keepalive
+  - metadata
+  - naming
+  - peer
+  - stats
+  - status
+  - tap
+  - transport
+testImports: []
