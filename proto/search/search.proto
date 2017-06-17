@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package search;
+
+service Search {
+    // Return all asas.
+    rpc Asa(AsaFilter) returns (AsaList);
+}
+
+message AsaFilter {
+}
+
+message AsaList {
+    repeated string asaIds = 1;
+}
