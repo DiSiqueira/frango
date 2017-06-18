@@ -1,15 +1,11 @@
-hash: 6a939d50c1ec6ee64832e2e75d81eab9697da397a87e70693591bc0e3c03fbde
-updated: 2017-06-18T01:31:19.817115125+02:00
+hash: c53e166f47a3d6962c64e19ce2bd95a49a3738c83c609546d49674b137a90aa3
+updated: 2017-06-18T02:57:16.88516859+02:00
 imports:
 - name: cloud.google.com/go
-  version: b8b88d2593afebb61b6f616bb3c85f79f28819d2
+  version: e11d9d1a1722e191d3d017c08077f2c15189769a
   subpackages:
   - compute/metadata
   - trace
-- name: github.com/disiqueira/frango
-  version: e40ed045ffc7b47abd254aba7bca839f2b7fcaa8
-  subpackages:
-  - lib
 - name: github.com/golang/protobuf
   version: e325f446bebc2998605911c0a2650d9920361d4a
   subpackages:
@@ -81,7 +77,7 @@ imports:
   subpackages:
   - googleapis/rpc/status
 - name: google.golang.org/grpc
-  version: c5c761dbca07f4d0efafd3f430a40dcdf1c1163f
+  version: 42c095b6c9bdd80d4435b064508c398afdb0ec99
   subpackages:
   - codes
   - credentials

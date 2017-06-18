@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"cloud.google.com/go/trace"
-	"github.com/disiqueira/frango/lib"
+	"github.com/disiqueira/frango/src/api/lib"
 	"github.com/disiqueira/frango/src/api/proto/search"
 	"github.com/kelseyhightower/envconfig"
 	"google.golang.org/grpc"

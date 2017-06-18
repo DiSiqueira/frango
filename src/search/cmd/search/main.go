@@ -12,7 +12,7 @@ import (
 	"strconv"
 
 	"cloud.google.com/go/trace"
-	"github.com/disiqueira/frango/lib"
+	"github.com/disiqueira/frango/src/search/lib"
 	"github.com/disiqueira/frango/src/search/proto/search"
 	"github.com/kelseyhightower/envconfig"
 	"golang.org/x/net/context"

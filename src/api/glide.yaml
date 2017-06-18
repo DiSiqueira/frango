@@ -1,13 +1,22 @@
 package: github.com/disiqueira/frango/src/api
 import:
-- package: cloud.google.com/go/trace
-- package: github.com/disiqueira/frango
+- package: cloud.google.com/go
+  version: ^0.8.0
   subpackages:
-  - lib
+  - trace
 - package: github.com/golang/protobuf
   subpackages:
   - proto
 - package: github.com/kelseyhightower/envconfig
   version: ^1.3.0
-- package: golang.org/x/net/context
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: golang.org/x/oauth2
+  subpackages:
+  - google
+- package: google.golang.org/api
+  subpackages:
+  - option
 - package: google.golang.org/grpc
+  version: ^1.4.1
