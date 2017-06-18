@@ -1,9 +1,14 @@
 version: "3"
 services:
 
-  asa:
+  search:
     build: .
     volumes:
-      - .:/go/src/github.com/disiqueira/frango/src/asa
-    ports:
-      - "8080:8080"
+      - .:/go/src/github.com/disiqueira/frango/src/search
+    networks:
+      main:
+        aliases:
+          - search
+
+networks:
+    main:

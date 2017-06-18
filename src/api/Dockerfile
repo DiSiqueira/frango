@@ -8,6 +8,7 @@ ENV APP_DIR $GOPATH/src/github.com/disiqueira/frango/src/api
 
 COPY ./Makefile ${APP_DIR}/Makefile
 COPY ./glide.yaml ${APP_DIR}/glide.yaml
+COPY ./glide.lock ${APP_DIR}/glide.lock
 
 WORKDIR ${APP_DIR}
 

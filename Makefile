@@ -1,8 +1,12 @@
-.PHONY: run proto
+.PHONY: run proto build start
 
 run:
-	cd ./src/api/ && $(MAKE) run
-	cd ./src/search/ && $(MAKE) run
+	cd src && for d in ./*/ ; do (cd $$d; $(MAKE) run; cd ..); done
+
+build:
+	cd src && for d in ./*/ ; do (cd $$d; $(MAKE) build; cd ..); done
+
+start: build run
 
 proto:
 	mkdir -p .temp
